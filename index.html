@@ -1,12 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Página Web</title>
+    <style>
+        /* Estilos CSS */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            background-image: url('https://cdn.discordapp.com/emojis/811702917340987432.gif?v=1');
+            background-size: cover;
+            background-position: center;
+        }
+        .content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .icons {
+            display: flex;
+            justify-content: space-between;
+            width: 200px;
+        }
+        .icons img {
+            width: 50px;
+            height: auto;
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body>
-    <h1>Bienvenido a mi página web</h1>
-    <p>¡Hola, mundo!</p>
+    <audio autoplay loop>
+        <source src="https://www.youtube.com/watch?v=wMdsflgl9_8" type="audio/mpeg">
+    </audio>
+    <div class="content">
+        <div class="icons">
+            <a href="enlace-a-tu-pagina-de-Discord" target="_blank"><img src="https://imagen-de-discord.png" alt="Discord"></a>
+            <a href="enlace-a-tu-pagina-de-Instagram" target="_blank"><img src="https://imagen-de-instagram.png" alt="Instagram"></a>
+        </div>
+    </div>
 </body>
 </html>
