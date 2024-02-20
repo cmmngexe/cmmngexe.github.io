@@ -42,6 +42,14 @@
         .sale-text {
             margin-bottom: 10px; /* Espacio inferior entre el texto y los iconos */
         }
+        /* Estilos para ocultar el reproductor de YouTube */
+        .youtube-player {
+            position: absolute;
+            top: -1000px;
+            left: -1000px;
+            width: 1px;
+            height: 1px;
+        }
     </style>
 </head>
 <body>
@@ -52,7 +60,9 @@
             <a href="https://open.spotify.com/user/929ojlloezhh6wkxfrisigvrc" target="_blank"><img src="https://discords.com/_next/image?url=https%3A%2F%2Fcdn.discordapp.com%2Femojis%2F1173076879729758308.png%3Fv%3D1&w=64&q=75" alt="Discord"></a>
         </div>
     </div>
-    <!-- Reproductor de audio oculto -->
+    <!-- Reproductor de YouTube embebido oculto -->
+    <iframe class="youtube-player" width="1" height="1" src="https://www.youtube.com/embed/tKvEnZSoqas?autoplay=1&loop=1&playlist=tKvEnZSoqas" frameborder="0" allow="autoplay; loop; encrypted-media" allowfullscreen></iframe>
+    <!-- Reproductor de audio -->
     <audio autoplay loop>
         <source src="https://github.com/cmmngexe/cmmngexe.github.io/raw/main/asdasd.mp3" type="audio/mpeg">
         Your browser does not support the audio element.
